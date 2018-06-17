@@ -1,9 +1,9 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
-from serializers import BlogSerializer
+from .serializers import BlogSerializer
 from rest_framework import viewsets
 
-from models import BlogModel
+from .models import BlogModel
 
 
 class Blog(TemplateView):

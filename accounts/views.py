@@ -1,6 +1,6 @@
 from django.views.generic import TemplateView
 from django.shortcuts import render
-from forms import LoginForm, RegisterForm
+from .forms import LoginForm, RegisterForm
 from django.contrib.auth import authenticate, login, logout
 from django.template import RequestContext
 from django.contrib.auth.models import User

@@ -1,9 +1,9 @@
 from django.conf.urls import include, url
-from views import Blog
+from .views import Blog
 
 from rest_framework import routers
 
-from views import BlogViewSet
+from .views import BlogViewSet
 
 router = routers.DefaultRouter()
 router.register(r'blog', BlogViewSet)
